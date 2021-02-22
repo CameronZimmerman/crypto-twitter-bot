@@ -1,16 +1,15 @@
 module.exports = [
   {
-    name: 'bull',
-    
-  },
-  {
-    name: 'bullish',
-  },
-  {
     name: 'crypto',
   },
   {
     name: 'cryptocurrency',
+  },
+  {
+    name: 'bull',
+  },
+  {
+    name: 'bullish',
   },
   {
     name: 'ATH',
@@ -19,13 +18,7 @@ module.exports = [
     name: 'all time high',
   },
   {
-    name: 'moon',
-  },
-  {
     name: 'mooning',
-  },
-  {
-    name: 'to the moon',
   },
   {
     name: 'good return',
@@ -37,7 +30,7 @@ module.exports = [
     name: 'ROI',
   },
   {
-    name: 'top 25',
+    name: 'top 25 currencies',
   },
   {
     name: 'market cap coin tickers',

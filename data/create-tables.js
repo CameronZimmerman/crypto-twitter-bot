@@ -11,12 +11,7 @@ async function run() {
     await client.connect();
 
     // run a query to create tables
-    await client.query(`
-                CREATE TABLE users (
-                    id SERIAL PRIMARY KEY,
-                    email VARCHAR(256) NOT NULL,
-                    hash VARCHAR(512) NOT NULL
-                );           
+    await client.query(`         
                 CREATE TABLE rules (
                     id SERIAL PRIMARY KEY NOT NULL,
                     name VARCHAR(512) NOT NULL,
